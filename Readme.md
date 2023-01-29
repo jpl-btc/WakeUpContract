@@ -17,7 +17,7 @@
   <h3 align="center">Wake UP Contract</h3>
 
   <p align="center">
-    An awesome Solidity Smart Contract to force yourself to wake up!
+    An awesome Solidity smart contract to force yourself to wake up!
     <br />
     <a href="https://github.com/JPLACLAU/WakeUpContract"><strong>Explore the docs »</strong></a>
     <br />
@@ -49,6 +49,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#changelog">ChangeLog</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -156,6 +157,19 @@ _For more examples, please refer to the [Documentation](https://github.com/JPLAC
 - [ ] Add moar stuff
 
 See the [open issues](https://github.com/JPLACLAU/WakeUpContract/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CHANGELOG -->
+
+## ChangeLog
+
+Current version: `0.1`
+
+| Version | Changes                                |
+| ------- | -------------------------------------- |
+| `0.2`   | Real contract.                         |
+| `0.1`   | Start the proyect /write the Readme.md |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
