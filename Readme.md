@@ -1,6 +1,3 @@
-DISCLAIMER
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -55,17 +52,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
+    <li><a href="#acknowledgments">Acknowledgments</a></li>  
+  </ol>  
+</details>  
+  
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-  <a href="https://github.com/JPLACLAU/WakeUpContract">
-    <img src="images/400x400.jpg" alt="Wake UP Contract" width="180" height="180">
-  </a>
+---
+
+###### _._
+
+  <div align="center">
+
+  <a href="https://github.com/JPLACLAU/WakeUpContract">  
+    <img src="images/400x400.jpg" alt="Wake UP Contract"    width="180" height="180">
+
+  </a>  
+    
+  </div>
+
+###### _._
 
 This is a project regarding a SmartContract and a Front End web GUI to use as a bet against onself to be able to wake up early in the morning. It is going to be the most used motivational and self improvement SmartContract for waking up early used by the masses of new modern human beings born in the web3 golden era of the future.
 
@@ -198,22 +206,22 @@ Thank you so much to.. no one yet! Be the first to collab!
 
 ## Disclaimer
 
-The software is provided "As is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+Check the `LICENSE.txt`
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- Thank you so much Othneildrew for this amazing Readme template -->
 <!-- https://github.com/JPLACLAU/WakeUpContract/blob/master/README.md -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/JPLACLAU/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/JPLACLAU/WakeUpContract/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/JPLACLAU/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/JPLACLAU/WakeUpContract/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/JPLACLAU/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/JPLACLAU/WakeUpContract/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/JPLACLAU/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/JPLACLAU/WakeUpContract/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/JPLACLAU/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/JPLACLAU/WakeUpContract/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jplaclau
