@@ -1,3 +1,5 @@
+#Environment
+.encryptedKey.json
 node_modules
 .env
 coverage
@@ -5,7 +7,15 @@ coverage.json
 typechain
 typechain-types
 
+# vscode
+.vscode
+
 # Hardhat files
 cache
 artifacts
+.DS_Store
+deployments
+gas-report.txt
 
+#Other Files
+.notes.md

@@ -2,11 +2,10 @@
 // 1. Pragma
 pragma solidity ^0.8.17;
 // 2. Imports
-import "./Lock.sol";
 
 // 3. Interfaces, Libraries, Contracts
 
-error NameOfTheContract__TheProblem();
+error WakeUp__TheProblem();
 
 /* @title: "A superb Smart Contract"
  * @author: "My Name here"
@@ -14,7 +13,7 @@ error NameOfTheContract__TheProblem();
  * @dev: "Super brief technical explanation"
  */
 
-contract NameOfTheContract {
+contract WakeUp {
     // Type Declarations
     // State variables
     // Events
