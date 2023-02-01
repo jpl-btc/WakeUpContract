@@ -18,7 +18,6 @@ contract WakeUp is Ownable {
     // State variables
     uint UnixWakeUpHour;
     uint256 deadline;
-    uint public timestamp;
 
     // Events
 
@@ -37,10 +36,6 @@ contract WakeUp is Ownable {
 
     function getContractBalance() public view onlyOwner returns (uint) {
         return address(this).balance;
-    }
-
-    function saveTimestamp() public {
-        timestamp = block.timestamp;
     }
 
     function unixWithdrawAll() public onlyOwner {
