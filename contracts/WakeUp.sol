@@ -1,8 +1,10 @@
 // SPDX-License-Identifier: MIT
 // 1. Pragma
 pragma solidity 0.8.17;
-
 // 2. Imports
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
 // 3. Interfaces, Libraries, Contracts
 
 /* @title: "Wake Up superb Smart Contract"
@@ -11,32 +13,42 @@ pragma solidity 0.8.17;
  * @dev: "Money deposited can only be collected between an intervall of time"
  */
 
-contract WakeUp {
+contract WakeUp is Ownable {
     // Type Declarations
     // State variables
-    uint Hour;
+    uint WakeUpHour;
+    uint CurrentHour;
 
     // Events
-    event HourSet(uint Hour);
+    event WakeUpHourSet(uint WakeUpHour);
 
     // Modifiers
     // Functions Order:
 
-    function setHour(uint x) public {
-        Hour = x;
+    function setWakeUpHour(uint x) public onlyOwner {
+        WakeUpHour = x;
     }
 
-    function getHour() public view returns (uint) {
-        return Hour;
+    function currentHour(uint x) public onlyOwner {
+        CurrentHour = x;
     }
 
-    function deposit() public payable {}
+    function getWakeUpHour() public view onlyOwner returns (uint) {
+        return WakeUpHour;
+    }
 
-    function getContractBalance() public view returns (uint) {
+    function getCurrentHour() public view onlyOwner returns (uint) {
+        return CurrentHour;
+    }
+
+    function deposit() public payable onlyOwner onlyOwner {}
+
+    function getContractBalance() public view onlyOwner returns (uint) {
         return address(this).balance;
     }
 
-    function withdrawAll() public {
+    function withdrawAll() public onlyOwner {
+        require(WakeUpHour == CurrentHour);
         address payable to = payable(msg.sender);
         to.transfer(getContractBalance());
     }

@@ -164,12 +164,13 @@ See the [open issues](https://github.com/JPLACLAU/WakeUpContract/issues) for a f
 
 ## ChangeLog
 
-Current version: `0.2`
+Current version: `0.3`
 
 | Version | Changes                                |
 | ------- | -------------------------------------- |
-| `0.3`   | Working on only owner and only withdraw at the desired hour      |
-| `0.2`   | Contract can set the hour, receive and retreive funds in eth.   |
+| `0.4`   | Working on adding a chainlink oracle to setup the hour.      |
+| `0.3`   | Only withdraw at the desired hour      |
+| `0.2.1`   | Contract is only owner "ownable" can set the hour, receive and retrieve funds in eth.   |
 | `0.1`   | Start the proyect /write the Readme.md |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
