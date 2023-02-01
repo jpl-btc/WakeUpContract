@@ -168,8 +168,8 @@ Current version: `0.2`
 
 | Version | Changes                                |
 | ------- | -------------------------------------- |
-| `0.3`   | Real contract.                         |
-| `0.2`   | Contract can set the hour, receive and retreive funds in eth. |
+| `0.3`   | Working on only owner and only withdraw at the desired hour      |
+| `0.2`   | Contract can set the hour, receive and retreive funds in eth.   |
 | `0.1`   | Start the proyect /write the Readme.md |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
