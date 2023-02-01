@@ -16,36 +16,17 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract WakeUp is Ownable {
     // Type Declarations
     // State variables
-    uint WakeUpHour;
-    uint CurrentHour;
     uint UnixWakeUpHour;
     uint256 deadline;
     uint public timestamp;
 
     // Events
-    event WakeUpHourSet(uint WakeUpHour);
 
     // Modifiers
     // Functions Order:
 
-    function setWakeUpHour(uint x) public onlyOwner {
-        WakeUpHour = x;
-    }
-
-    function currentHour(uint x) public onlyOwner {
-        CurrentHour = x;
-    }
-
     function setUnixWakeUpHour(uint x) public onlyOwner {
         UnixWakeUpHour = x;
-    }
-
-    function getWakeUpHour() public view onlyOwner returns (uint) {
-        return WakeUpHour;
-    }
-
-    function getCurrentHour() public view onlyOwner returns (uint) {
-        return CurrentHour;
     }
 
     function getUnixWakeUpHour() public view onlyOwner returns (uint) {
@@ -58,20 +39,14 @@ contract WakeUp is Ownable {
         return address(this).balance;
     }
 
-    function withdrawAll() public onlyOwner {
-        require(WakeUpHour == CurrentHour);
-        address payable to = payable(msg.sender);
-        to.transfer(getContractBalance());
-    }
-
     function saveTimestamp() public {
         timestamp = block.timestamp;
     }
 
     function unixWithdrawAll() public onlyOwner {
-        require(UnixWakeUpHour >= block.timestamp);
         deadline = UnixWakeUpHour + (15 minutes);
-        require(block.timestamp >= deadline);
+        require(block.timestamp >= UnixWakeUpHour);
+        require(deadline >= block.timestamp);
 
         address payable to = payable(msg.sender);
         to.transfer(getContractBalance());
