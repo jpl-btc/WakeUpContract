@@ -193,6 +193,10 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+|  Help is needed!                                |
+| -------------------------------------- |
+|  - At this moment, I could use the help of someone with JS experience to help me work one some time functions on the client's side. contact me for more info.-    |
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
