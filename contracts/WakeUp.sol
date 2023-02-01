@@ -18,6 +18,7 @@ contract WakeUp is Ownable {
     // State variables
     uint WakeUpHour;
     uint CurrentHour;
+    uint UnixWakeUpHour;
 
     // Events
     event WakeUpHourSet(uint WakeUpHour);
@@ -33,12 +34,20 @@ contract WakeUp is Ownable {
         CurrentHour = x;
     }
 
+    function setUnixWakeUpHour(uint x) public onlyOwner {
+        UnixWakeUpHour = x;
+    }
+
     function getWakeUpHour() public view onlyOwner returns (uint) {
         return WakeUpHour;
     }
 
     function getCurrentHour() public view onlyOwner returns (uint) {
         return CurrentHour;
+    }
+
+    function getUnixWakeUpHour() public view onlyOwner returns (uint) {
+        return UnixWakeUpHour;
     }
 
     function deposit() public payable onlyOwner onlyOwner {}
@@ -53,6 +62,11 @@ contract WakeUp is Ownable {
         to.transfer(getContractBalance());
     }
 
+    function unixWithdrawAll() public onlyOwner {
+        require(UnixWakeUpHour == CurrentHour);
+        address payable to = payable(msg.sender);
+        to.transfer(getContractBalance());
+    }
     //// constructor
     //// receive
     //// fallback
