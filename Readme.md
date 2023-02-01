@@ -164,11 +164,12 @@ See the [open issues](https://github.com/JPLACLAU/WakeUpContract/issues) for a f
 
 ## ChangeLog
 
-Current version: `0.1`
+Current version: `0.2`
 
 | Version | Changes                                |
 | ------- | -------------------------------------- |
-| `0.2`   | Real contract.                         |
+| `0.3`   | Real contract.                         |
+| `0.2`   | Contract can set the hour, receive and retreive funds in eth. |
 | `0.1`   | Start the proyect /write the Readme.md |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
