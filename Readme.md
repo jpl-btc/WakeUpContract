@@ -144,10 +144,10 @@ _For more examples, please refer to the [Documentation](https://github.com/JPLAC
 
 <!-- ROADMAP -->
 
-## Roadmap
+## Features Roadmap
 
 - [x] Start the proyect
-- [ ] Single person usage with no check on wake up time. "Trust the user"
+- [x] Single person usage with no check on wake up time. "Trust the user"
 - [ ] Single person usage with a check time.
 - [ ] Add additional stuff
 - [ ] Make the front-end beautiful.
@@ -162,7 +162,7 @@ See the [open issues](https://github.com/JPLACLAU/WakeUpContract/issues) for a f
 
 <!-- CHANGELOG -->
 
-## ChangeLog & Roadmap
+## ChangeLog & Versions Roadmap
 
 Current version: `0.3`
 
