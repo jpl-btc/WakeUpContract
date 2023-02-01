@@ -19,6 +19,8 @@ contract WakeUp is Ownable {
     uint WakeUpHour;
     uint CurrentHour;
     uint UnixWakeUpHour;
+    uint256 deadline;
+    uint public timestamp;
 
     // Events
     event WakeUpHourSet(uint WakeUpHour);
@@ -62,8 +64,15 @@ contract WakeUp is Ownable {
         to.transfer(getContractBalance());
     }
 
+    function saveTimestamp() public {
+        timestamp = block.timestamp;
+    }
+
     function unixWithdrawAll() public onlyOwner {
-        require(UnixWakeUpHour == CurrentHour);
+        require(UnixWakeUpHour >= block.timestamp);
+        deadline = UnixWakeUpHour + (15 minutes);
+        require(block.timestamp >= deadline);
+
         address payable to = payable(msg.sender);
         to.transfer(getContractBalance());
     }

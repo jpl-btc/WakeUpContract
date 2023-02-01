@@ -164,7 +164,7 @@ See the [open issues](https://github.com/JPLACLAU/WakeUpContract/issues) for a f
 
 ## ChangeLog & Versions Roadmap
 
-Current version: `0.3`
+Current version: `0.4`
 
 | Version | Changes                                |
 | ------- | -------------------------------------- |
@@ -172,6 +172,7 @@ Current version: `0.3`
 | `0.5.0`   | Basic HML Front End.      |
 | `0.4.1`   | Unit tests and gas improvements.   |
 | `0.4`   | Working on adding ~~a chainlink oracle~~ time functions to setup the hour of withdrawal (wake up hour).      |
+| `0.3.1`   | Hybrid real time + manually time functions (all works)  |
 | `0.3`   | Only withdraw at the desired hour      |
 | `0.2.1`   | Contract is only owner "ownable" can set the hour, receive and retrieve funds in eth.   |
 | `0.1`   | Start the proyect /write the Readme.md |
