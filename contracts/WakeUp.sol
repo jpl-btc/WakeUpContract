@@ -1,11 +1,6 @@
 // SPDX-License-Identifier: MIT
-// 1. Pragma
 pragma solidity 0.8.17;
-// 2. Imports
-
 import "@openzeppelin/contracts/access/Ownable.sol";
-
-// 3. Interfaces, Libraries, Contracts
 
 /* @title: "Wake Up superb Smart Contract"
  * @author: "Jean-Paul Laclau"
@@ -14,15 +9,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
  */
 
 contract WakeUp is Ownable {
-    // Type Declarations
-    // State variables
     uint UnixWakeUpHour;
     uint256 deadline;
-
-    // Events
-
-    // Modifiers
-    // Functions Order:
 
     function setUnixWakeUpHour(uint x) public onlyOwner {
         UnixWakeUpHour = x;
@@ -46,16 +34,4 @@ contract WakeUp is Ownable {
         address payable to = payable(msg.sender);
         to.transfer(getContractBalance());
     }
-    //// constructor
-    //// receive
-    //// fallback
-    //// external
-    //// public
-    //// internal
-    //// private
-    //// view / pure
 }
-
-/*  @param: Explain some param here.
- *  @notice: Write some short ending comentary here. Be nice.
- */

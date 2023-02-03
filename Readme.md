@@ -168,9 +168,10 @@ Current version: `0.4.1`
 
 | Version | Changes                                |
 | ------- | -------------------------------------- |
+| `0.6`   | Unit tests and gas improvements.     |
 | `0.5.1`   | Nicer Front End built with React.    |
 | `0.5.0`   | Basic HML Front End.      |
-| `0.4.2`   | Unit tests and gas improvements.   |
+| ~~`0.4.2`~~   | ~~Unit tests and gas improvements.~~ (Failed attempt)   |
 | `0.4.1`   | Removing non essential functions. Use https://www.unixtimestamp.com to get Unix timestamps.   |
 | `0.4`   | Working on adding ~~a chainlink oracle~~ time functions to setup the hour of withdrawal (wake up hour).      |
 | `0.3.1`   | Hybrid real time + manually time functions (all works)  |
